@@ -4,9 +4,10 @@ import Homepage from "./components/HomePage";
 import LoginPage from "./components/LoginPage";
 
 const App = props => (
-  <div>
+  <div className="ui container">
     <Route exact path="/" component={Homepage} />
     <Route exact path="/login" component={LoginPage} />
+    <div>hello</div>
   </div>
 );
 
